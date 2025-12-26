@@ -19,7 +19,8 @@ const NotFound = () => {
           Page Not Found
         </h2>
         <p className="text-xl text-primary-foreground opacity-90 mb-8 max-w-md">
-          The page you're looking for doesn't exist or is still under development.
+          The page you're looking for doesn't exist or is still under
+          development.
         </p>
         <Link
           to="/"

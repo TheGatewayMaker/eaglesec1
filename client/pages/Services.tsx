@@ -9,7 +9,8 @@ export default function Services() {
         <div className="container mx-auto px-6">
           <h1 className="text-h1 font-bold mb-6">Our Security Services</h1>
           <p className="text-xl opacity-95 max-w-2xl">
-            Comprehensive security solutions designed to protect what matters most to you
+            Comprehensive security solutions designed to protect what matters
+            most to you
           </p>
         </div>
       </section>
@@ -28,9 +29,9 @@ export default function Services() {
                   </h2>
                 </div>
                 <p className="text-foreground leading-relaxed mb-6 text-lg">
-                  Eagle Security Guards draws its main pool of manpower from armed
-                  forces of Pakistan and imparts training to meet critical security
-                  requirements reliably and efficiently.
+                  Eagle Security Guards draws its main pool of manpower from
+                  armed forces of Pakistan and imparts training to meet critical
+                  security requirements reliably and efficiently.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3">
@@ -42,7 +43,8 @@ export default function Services() {
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                     <span className="text-foreground">
-                      Database verification to ensure no blacklisted guards join ranks
+                      Database verification to ensure no blacklisted guards join
+                      ranks
                     </span>
                   </li>
                   <li className="flex gap-3">
@@ -77,9 +79,9 @@ export default function Services() {
                   <h2 className="text-h2 font-bold text-primary">Bodyguards</h2>
                 </div>
                 <p className="text-foreground leading-relaxed mb-6 text-lg">
-                  Our bodyguards are mainly drawn from Special Service Group (SSG)
-                  of Pakistan Army, an elite force trained to use all available
-                  means to survive the worst security hazards.
+                  Our bodyguards are mainly drawn from Special Service Group
+                  (SSG) of Pakistan Army, an elite force trained to use all
+                  available means to survive the worst security hazards.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3">
@@ -122,9 +124,9 @@ export default function Services() {
                   </h2>
                 </div>
                 <p className="text-foreground leading-relaxed mb-6 text-lg">
-                  Mobile escort services are provided by ESG to protect personnel
-                  during movement. Our escort teams are fully trained in defensive
-                  measures to meet any eventuality.
+                  Mobile escort services are provided by ESG to protect
+                  personnel during movement. Our escort teams are fully trained
+                  in defensive measures to meet any eventuality.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3">
@@ -174,8 +176,8 @@ export default function Services() {
                 </div>
                 <p className="text-foreground leading-relaxed mb-6 text-lg">
                   ESG specialises in providing all security equipment needed to
-                  safeguard your premises with cutting-edge technology and proven
-                  solutions.
+                  safeguard your premises with cutting-edge technology and
+                  proven solutions.
                 </p>
                 <ul className="space-y-3">
                   <li className="flex gap-3">
@@ -188,11 +190,15 @@ export default function Services() {
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Wireless Communication Devices</span>
+                    <span className="text-foreground">
+                      Wireless Communication Devices
+                    </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Barbed Wire Protection</span>
+                    <span className="text-foreground">
+                      Barbed Wire Protection
+                    </span>
                   </li>
                 </ul>
               </div>

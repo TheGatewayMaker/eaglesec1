@@ -49,34 +49,42 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-lg border border-border">
-                <h3 className="text-h3 font-bold text-primary mb-4">Our Vision</h3>
+                <h3 className="text-h3 font-bold text-primary mb-4">
+                  Our Vision
+                </h3>
                 <p className="text-foreground leading-relaxed">
-                  Vigilance by the dedicated and quality conscious guards is the ultimate
-                  answer to security.
+                  Vigilance by the dedicated and quality conscious guards is the
+                  ultimate answer to security.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-lg border border-border">
-                <h3 className="text-h3 font-bold text-primary mb-4">Our Mission</h3>
+                <h3 className="text-h3 font-bold text-primary mb-4">
+                  Our Mission
+                </h3>
                 <p className="text-foreground leading-relaxed">
-                  Being managed by competent ex-army officers with wide experience in
-                  designing and implementing effective security systems to combat prevailing
-                  threats, we aim to select and deploy experienced, well-trained personnel.
+                  Being managed by competent ex-army officers with wide
+                  experience in designing and implementing effective security
+                  systems to combat prevailing threats, we aim to select and
+                  deploy experienced, well-trained personnel.
                 </p>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">Our Background</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Our Background
+              </h3>
               <p className="text-foreground leading-relaxed mb-4">
-                Eagle Security Guards was established in 1992. The company has the NOC to
-                operate all over Pakistan including AJK. Today the company is one of the
-                leading private security companies in Pakistan upholding its credible name
-                to provide most reliable, efficient and cost effective guarding services.
+                Eagle Security Guards was established in 1992. The company has
+                the NOC to operate all over Pakistan including AJK. Today the
+                company is one of the leading private security companies in
+                Pakistan upholding its credible name to provide most reliable,
+                efficient and cost effective guarding services.
               </p>
               <p className="text-foreground leading-relaxed">
-                Our head office is located in Islamabad with regional/branch offices in
-                almost all major cities of Pakistan.
+                Our head office is located in Islamabad with regional/branch
+                offices in almost all major cities of Pakistan.
               </p>
             </div>
           </div>
@@ -161,22 +169,30 @@ export default function Home() {
             Presence Across Pakistan
           </h2>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
-            Multiple offices nationwide ensuring reliable coverage and local expertise
+            Multiple offices nationwide ensuring reliable coverage and local
+            expertise
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Head Office */}
             <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">Head Office</h3>
-              <p className="text-lg font-semibold text-accent mb-2">Islamabad</p>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Head Office
+              </h3>
+              <p className="text-lg font-semibold text-accent mb-2">
+                Islamabad
+              </p>
               <p className="text-muted-foreground">
-                Our central hub providing comprehensive coordination and management
+                Our central hub providing comprehensive coordination and
+                management
               </p>
             </div>
 
             {/* Regional Offices */}
             <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">Regional Offices</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Regional Offices
+              </h3>
               <ul className="space-y-2 text-foreground">
                 <li>• South (Multan)</li>
                 <li>• Lahore</li>
@@ -188,7 +204,9 @@ export default function Home() {
 
             {/* Area & Sub Offices */}
             <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
-              <h3 className="text-h3 font-bold text-primary mb-4">Area & Sub Offices</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Area & Sub Offices
+              </h3>
               <ul className="space-y-2 text-foreground">
                 <li>• Sargodha • Peshawar</li>
                 <li>• Mirpur • Sialkot</li>
@@ -234,8 +252,8 @@ export default function Home() {
                 Elite Specialized Units
               </h3>
               <p className="text-foreground leading-relaxed mb-6">
-                Bodyguards from Special Service Group (SSG) represent the cream of
-                our handpicked men trained for critical missions.
+                Bodyguards from Special Service Group (SSG) represent the cream
+                of our handpicked men trained for critical missions.
               </p>
             </div>
 
@@ -289,14 +307,16 @@ export default function Home() {
                 key={client}
                 className="bg-white p-6 rounded-lg border border-border flex items-center justify-center text-center hover:shadow-md transition-shadow"
               >
-                <p className="font-semibold text-foreground text-sm">{client}</p>
+                <p className="font-semibold text-foreground text-sm">
+                  {client}
+                </p>
               </div>
             ))}
           </div>
 
           <p className="text-center text-muted-foreground text-lg">
-            Join our growing list of satisfied clients across government, banking,
-            media, and corporate sectors
+            Join our growing list of satisfied clients across government,
+            banking, media, and corporate sectors
           </p>
         </div>
       </section>

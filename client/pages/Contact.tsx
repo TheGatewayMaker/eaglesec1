@@ -13,7 +13,9 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -54,7 +56,9 @@ export default function Contact() {
             {/* Contact Info Cards */}
             <div className="bg-slate-50 p-8 rounded-lg border border-border">
               <MapPin className="w-8 h-8 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">Head Office</h3>
+              <h3 className="text-h3 font-bold text-primary mb-3">
+                Head Office
+              </h3>
               <p className="text-foreground mb-2">Islamabad</p>
               <p className="text-muted-foreground text-sm">
                 Central coordination hub for all operations
@@ -72,7 +76,9 @@ export default function Contact() {
 
             <div className="bg-slate-50 p-8 rounded-lg border border-border">
               <Clock className="w-8 h-8 text-accent mb-4" />
-              <h3 className="text-h3 font-bold text-primary mb-3">Response Time</h3>
+              <h3 className="text-h3 font-bold text-primary mb-3">
+                Response Time
+              </h3>
               <p className="text-foreground mb-1">Quick turnaround</p>
               <p className="text-muted-foreground text-sm">
                 We prioritize all security consultations
@@ -82,7 +88,9 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-h2 font-bold text-primary mb-8">Send us a Message</h2>
+            <h2 className="text-h2 font-bold text-primary mb-8">
+              Send us a Message
+            </h2>
 
             {submitted && (
               <div className="bg-green-50 border border-green-200 text-green-800 p-4 rounded-lg mb-8">
@@ -96,7 +104,10 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block font-semibold text-foreground mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block font-semibold text-foreground mb-2"
+                  >
                     Full Name *
                   </label>
                   <input
@@ -112,7 +123,10 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block font-semibold text-foreground mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block font-semibold text-foreground mb-2"
+                  >
                     Email Address *
                   </label>
                   <input
@@ -130,7 +144,10 @@ export default function Contact() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block font-semibold text-foreground mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block font-semibold text-foreground mb-2"
+                  >
                     Phone Number
                   </label>
                   <input
@@ -145,7 +162,10 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block font-semibold text-foreground mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block font-semibold text-foreground mb-2"
+                  >
                     Subject *
                   </label>
                   <select
@@ -157,7 +177,9 @@ export default function Contact() {
                     className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
                   >
                     <option value="">Select a subject</option>
-                    <option value="security-guards">Static Security Guards</option>
+                    <option value="security-guards">
+                      Static Security Guards
+                    </option>
                     <option value="bodyguards">Bodyguards</option>
                     <option value="mobile-escorts">Mobile Escorts</option>
                     <option value="equipment">Security Equipment</option>
@@ -168,7 +190,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block font-semibold text-foreground mb-2">
+                <label
+                  htmlFor="message"
+                  className="block font-semibold text-foreground mb-2"
+                >
                   Message *
                 </label>
                 <textarea
@@ -204,7 +229,9 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Head Office */}
             <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">Head Office</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Head Office
+              </h3>
               <p className="font-semibold text-foreground mb-1">Islamabad</p>
               <p className="text-muted-foreground text-sm mb-4">
                 Central coordination and management
@@ -213,7 +240,9 @@ export default function Contact() {
 
             {/* Regional Offices */}
             <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">Regional Offices</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Regional Offices
+              </h3>
               <ul className="space-y-2 text-foreground text-sm">
                 <li>• South (Multan)</li>
                 <li>• Lahore</li>
@@ -225,7 +254,9 @@ export default function Contact() {
 
             {/* Area & Sub Offices */}
             <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">Area & Sub Offices</h3>
+              <h3 className="text-h3 font-bold text-primary mb-4">
+                Area & Sub Offices
+              </h3>
               <ul className="space-y-2 text-foreground text-sm">
                 <li>• Sargodha • Peshawar</li>
                 <li>• Mirpur • Sialkot</li>

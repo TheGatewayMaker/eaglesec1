@@ -39,7 +39,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-accent transition-colors">
+                <Link
+                  to="/about"
+                  className="hover:text-accent transition-colors"
+                >
                   About Us
                 </Link>
               </li>
@@ -112,10 +115,16 @@ export default function Footer() {
               © 2024 Eagle Security Guards (Pvt) Ltd. All rights reserved.
             </p>
             <div className="flex gap-4">
-              <a href="#privacy" className="text-sm hover:text-accent transition-colors">
+              <a
+                href="#privacy"
+                className="text-sm hover:text-accent transition-colors"
+              >
                 Privacy Policy
               </a>
-              <a href="#terms" className="text-sm hover:text-accent transition-colors">
+              <a
+                href="#terms"
+                className="text-sm hover:text-accent transition-colors"
+              >
                 Terms of Service
               </a>
             </div>

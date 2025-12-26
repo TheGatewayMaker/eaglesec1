@@ -7,9 +7,12 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-6">
-          <h1 className="text-h1 font-bold mb-6">About Eagle Security Guards</h1>
+          <h1 className="text-h1 font-bold mb-6">
+            About Eagle Security Guards
+          </h1>
           <p className="text-xl opacity-95 max-w-2xl">
-            Building trust through excellence in professional security services since 1992
+            Building trust through excellence in professional security services
+            since 1992
           </p>
         </div>
       </section>
@@ -18,17 +21,20 @@ export default function About() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6 max-w-3xl">
           <div className="mb-16">
-            <h2 className="text-h2 font-bold text-primary mb-6">Our Background</h2>
+            <h2 className="text-h2 font-bold text-primary mb-6">
+              Our Background
+            </h2>
             <p className="text-foreground leading-relaxed text-lg mb-6">
-              Eagle Security Guards was established in 1992. The company has the NOC
-              to operate all over Pakistan including AJK. Today the company is one of
-              the leading private security companies in Pakistan upholding its credible
-              name to provide most reliable, efficient and cost effective guarding services.
+              Eagle Security Guards was established in 1992. The company has the
+              NOC to operate all over Pakistan including AJK. Today the company
+              is one of the leading private security companies in Pakistan
+              upholding its credible name to provide most reliable, efficient
+              and cost effective guarding services.
             </p>
             <p className="text-foreground leading-relaxed text-lg">
-              Our head office is located in Islamabad with regional/branch offices in
-              almost all major cities of Pakistan, ensuring comprehensive coverage and
-              local expertise throughout the nation.
+              Our head office is located in Islamabad with regional/branch
+              offices in almost all major cities of Pakistan, ensuring
+              comprehensive coverage and local expertise throughout the nation.
             </p>
           </div>
         </div>
@@ -61,9 +67,10 @@ export default function About() {
                 <h3 className="text-h3 font-bold text-primary">Mission</h3>
               </div>
               <p className="text-foreground leading-relaxed">
-                Being managed by competent ex-army officers with wide experience in
-                designing and implementing effective security systems, we aim to select
-                and deploy experienced, well-trained personnel to combat prevailing threats.
+                Being managed by competent ex-army officers with wide experience
+                in designing and implementing effective security systems, we aim
+                to select and deploy experienced, well-trained personnel to
+                combat prevailing threats.
               </p>
             </div>
 
@@ -74,8 +81,9 @@ export default function About() {
                 <h3 className="text-h3 font-bold text-primary">Commitment</h3>
               </div>
               <p className="text-foreground leading-relaxed">
-                Providing most reliable, efficient and cost effective guarding services
-                with dedication to quality and integrity throughout Pakistan.
+                Providing most reliable, efficient and cost effective guarding
+                services with dedication to quality and integrity throughout
+                Pakistan.
               </p>
             </div>
           </div>
@@ -88,43 +96,49 @@ export default function About() {
           <div className="mb-12">
             <h2 className="text-h2 font-bold text-primary mb-6">Our Story</h2>
             <p className="text-foreground leading-relaxed text-lg mb-6">
-              Eagle Security Guards (Pvt) Ltd draws its main pool of manpower from
-              the armed forces of Pakistan, ensuring that our personnel bring
-              professional military training and discipline to every assignment.
+              Eagle Security Guards (Pvt) Ltd draws its main pool of manpower
+              from the armed forces of Pakistan, ensuring that our personnel
+              bring professional military training and discipline to every
+              assignment.
             </p>
             <p className="text-foreground leading-relaxed text-lg mb-6">
-              We are committed to imparting comprehensive training to meet critical
-              security requirements reliably and efficiently. Our comprehensive
-              vetting process ensures that only the most qualified and trustworthy
-              individuals join our organization.
+              We are committed to imparting comprehensive training to meet
+              critical security requirements reliably and efficiently. Our
+              comprehensive vetting process ensures that only the most qualified
+              and trustworthy individuals join our organization.
             </p>
           </div>
 
           <div className="mb-12">
-            <h2 className="text-h2 font-bold text-primary mb-6">Our Commitment to Quality</h2>
+            <h2 className="text-h2 font-bold text-primary mb-6">
+              Our Commitment to Quality
+            </h2>
             <p className="text-foreground leading-relaxed text-lg mb-6">
-              Every member of our team undergoes rigorous screening and verification.
-              Comprehensive personal data is collected, screened, vetted, and stored
-              in our secure database, ensuring that no compromised or blacklisted
-              individuals join our ranks.
+              Every member of our team undergoes rigorous screening and
+              verification. Comprehensive personal data is collected, screened,
+              vetted, and stored in our secure database, ensuring that no
+              compromised or blacklisted individuals join our ranks.
             </p>
             <p className="text-foreground leading-relaxed text-lg">
-              This dedication to quality and integrity has made us the trusted choice
-              for organizations across government, banking, media, and corporate sectors
-              throughout Pakistan.
+              This dedication to quality and integrity has made us the trusted
+              choice for organizations across government, banking, media, and
+              corporate sectors throughout Pakistan.
             </p>
           </div>
 
           <div className="bg-slate-50 p-8 rounded-lg border border-border">
-            <h3 className="text-h3 font-bold text-primary mb-6">Nationwide Presence</h3>
+            <h3 className="text-h3 font-bold text-primary mb-6">
+              Nationwide Presence
+            </h3>
             <p className="text-foreground leading-relaxed mb-6">
-              With our head office in Islamabad and multiple regional, area, and sub
-              offices across Pakistan, we ensure reliable coverage and local expertise
-              wherever you need us.
+              With our head office in Islamabad and multiple regional, area, and
+              sub offices across Pakistan, we ensure reliable coverage and local
+              expertise wherever you need us.
             </p>
             <p className="text-foreground leading-relaxed">
-              Our extensive network allows us to respond quickly to your security needs
-              and provide consistent, high-quality service across all regions.
+              Our extensive network allows us to respond quickly to your
+              security needs and provide consistent, high-quality service across
+              all regions.
             </p>
           </div>
         </div>

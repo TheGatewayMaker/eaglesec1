@@ -6,7 +6,10 @@ export default function Navigation() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo and Company Name */}
-          <Link to="/" className="flex items-center gap-3 font-bold text-xl hover:opacity-90 transition">
+          <Link
+            to="/"
+            className="flex items-center gap-3 font-bold text-xl hover:opacity-90 transition"
+          >
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
