@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Target, Lightbulb, Compass } from "lucide-react";
 
 export default function About() {
   return (
@@ -8,12 +9,80 @@ export default function About() {
         <div className="container mx-auto px-6">
           <h1 className="text-h1 font-bold mb-6">About Eagle Security Guards</h1>
           <p className="text-xl opacity-95 max-w-2xl">
-            Building trust through excellence in professional security services
+            Building trust through excellence in professional security services since 1992
           </p>
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* Background Section */}
+      <section className="py-20 md:py-28 bg-white">
+        <div className="container mx-auto px-6 max-w-3xl">
+          <div className="mb-16">
+            <h2 className="text-h2 font-bold text-primary mb-6">Our Background</h2>
+            <p className="text-foreground leading-relaxed text-lg mb-6">
+              Eagle Security Guards was established in 1992. The company has the NOC
+              to operate all over Pakistan including AJK. Today the company is one of
+              the leading private security companies in Pakistan upholding its credible
+              name to provide most reliable, efficient and cost effective guarding services.
+            </p>
+            <p className="text-foreground leading-relaxed text-lg">
+              Our head office is located in Islamabad with regional/branch offices in
+              almost all major cities of Pakistan, ensuring comprehensive coverage and
+              local expertise throughout the nation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Vision, Mission, Values Section */}
+      <section className="py-20 md:py-28 bg-slate-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-h2 font-bold text-primary text-center mb-16">
+            Our Vision & Mission
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            {/* Vision */}
+            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <Lightbulb className="w-8 h-8 text-accent flex-shrink-0" />
+                <h3 className="text-h3 font-bold text-primary">Vision</h3>
+              </div>
+              <p className="text-foreground leading-relaxed">
+                Vigilance by the dedicated and quality conscious guards is the
+                ultimate answer to security.
+              </p>
+            </div>
+
+            {/* Mission */}
+            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <Target className="w-8 h-8 text-accent flex-shrink-0" />
+                <h3 className="text-h3 font-bold text-primary">Mission</h3>
+              </div>
+              <p className="text-foreground leading-relaxed">
+                Being managed by competent ex-army officers with wide experience in
+                designing and implementing effective security systems, we aim to select
+                and deploy experienced, well-trained personnel to combat prevailing threats.
+              </p>
+            </div>
+
+            {/* Core Values */}
+            <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <Compass className="w-8 h-8 text-accent flex-shrink-0" />
+                <h3 className="text-h3 font-bold text-primary">Commitment</h3>
+              </div>
+              <p className="text-foreground leading-relaxed">
+                Providing most reliable, efficient and cost effective guarding services
+                with dedication to quality and integrity throughout Pakistan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Story Section */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6 max-w-3xl">
           <div className="mb-12">
@@ -32,7 +101,7 @@ export default function About() {
           </div>
 
           <div className="mb-12">
-            <h2 className="text-h2 font-bold text-primary mb-6">Our Commitment</h2>
+            <h2 className="text-h2 font-bold text-primary mb-6">Our Commitment to Quality</h2>
             <p className="text-foreground leading-relaxed text-lg mb-6">
               Every member of our team undergoes rigorous screening and verification.
               Comprehensive personal data is collected, screened, vetted, and stored
